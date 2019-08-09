@@ -1,1 +1,12 @@
 /* add your styling here */
+* {
+  margin: auto;
+}
+body {
+  background-color: turquoise;
+}
+#book-list > * {
+  display: grid;
+  grid-column: 50%, 50%;
+  grid-row: 50vh, 50vh;
+}
